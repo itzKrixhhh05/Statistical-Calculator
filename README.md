@@ -1,14 +1,18 @@
 # 📊 Statistical Calculator using Python
 
-A comprehensive Python-based Statistical Calculator that implements major statistical techniques from scratch without relying on built-in statistical functions.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange)
 
-This project was created to strengthen understanding of Statistics and Python programming by implementing mathematical formulas manually.
+A comprehensive Python-based statistical calculator that implements major statistical techniques from scratch without relying on built-in statistical functions.
+
+The project focuses on understanding the mathematics behind statistical concepts by manually implementing formulas using Python.
 
 ---
 
 ## ✨ Features
 
-### Measures of Central Tendency
+### 📈 Measures of Central Tendency
 
 * Mean
 * Median
@@ -16,7 +20,7 @@ This project was created to strengthen understanding of Statistics and Python pr
 * Geometric Mean
 * Harmonic Mean
 
-### Measures of Dispersion
+### 📉 Measures of Dispersion
 
 * Range
 * Quartile Deviation
@@ -25,24 +29,24 @@ This project was created to strengthen understanding of Statistics and Python pr
 * Standard Deviation
 * Coefficient of Variation
 
-### Positional Measures
+### 📊 Positional Measures
 
 * Quartiles (Q1, Q2, Q3)
 
-### Advanced Statistical Analysis
+### 🔬 Advanced Statistical Analysis
 
 * First Four Moments
 * Skewness
 * Kurtosis
 
-### Relationship Analysis
+### 🔗 Relationship Analysis
 
 * Covariance
 * Karl Pearson's Correlation Coefficient
 * Spearman Rank Correlation
 * Regression Analysis (Y on X and X on Y)
 
-### Visualization
+### 📋 Data Visualization
 
 * Ogive Curve for Median
 * Quartile Visualization
@@ -60,16 +64,28 @@ This project was created to strengthen understanding of Statistics and Python pr
 
 ---
 
+## 📂 Project Structure
+
+```text
+statistics-calculator/
+│
+├── statical_calculator.py
+├── README.md
+└── .gitignore
+```
+
+---
+
 ## 📥 Installation
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/statistics-calculator.git
+git clone <repository-url>
 cd statistics-calculator
 ```
 
-### 2. Install Required Libraries
+### 2. Install Dependencies
 
 ```bash
 pip install numpy pandas matplotlib
@@ -83,7 +99,7 @@ python statical_calculator.py
 
 ---
 
-## 📋 Main Menu
+## 📋 Available Operations
 
 ```text
 1. Mean
@@ -110,18 +126,14 @@ python statical_calculator.py
 
 ## 📊 Supported Data Types
 
-The calculator supports:
-
 ### Individual Series
 
-Example:
-
 ```text
-5
 10
-15
 20
-25
+30
+40
+50
 ```
 
 ### Discrete Series
@@ -145,15 +157,15 @@ Class Interval    Frequency
 
 ## 🎯 Project Objective
 
-The primary objective of this project is educational.
+This project was developed to strengthen understanding of:
 
-Instead of using ready-made statistical functions, all major statistical measures are implemented manually using mathematical formulas. This helps in understanding:
+* Statistics
+* Mathematical Formula Implementation
+* Data Analysis Fundamentals
+* Python Programming
+* Scientific Computing
 
-* Statistical concepts
-* Mathematical derivations
-* Data analysis fundamentals
-* Python programming
-* Scientific computing
+Instead of relying on ready-made statistical libraries, the formulas are implemented manually to provide a deeper understanding of how statistical calculations work internally.
 
 ---
 
@@ -170,6 +182,7 @@ Select What You Want To Find
 Enter your choice: 1
 
 Select Which Type of Data you have
+
 1. Individual
 2. Discrete
 3. Continuous
@@ -193,21 +206,14 @@ Result = 30.0
 * Graphical User Interface (GUI)
 * CSV File Support
 * Excel File Support
-* Statistical Hypothesis Testing
+* Z-Score Calculator
+* Hypothesis Testing
 * Confidence Intervals
+* Chi-Square Test
 * ANOVA
 * Probability Distributions
+* Interactive Dashboard
 * Web Application Version
-
----
-
-## 👨‍💻 Author
-
-Krish Bansal
-
-B.Tech Computer Science Engineering
-
-Panipat Institute of Engineering & Technology (PIET)
 
 ---
 
@@ -231,9 +237,27 @@ feel free to open an Issue or submit a Pull Request.
 2. Create a new branch
 3. Make your changes
 4. Commit your changes
-5. Submit a Pull Request
+5. Push your branch
+6. Submit a Pull Request
 
 Every contribution helps improve the project and is greatly appreciated.
 
-Thank you for taking the time to review, test, and contribute to this project. 🚀
+---
 
+## 👨‍💻 Author
+
+**Krish Bansal**
+
+Computer Science Engineering Student
+
+Panipat Institute of Engineering & Technology (PIET)
+
+Interested in Statistics, Python, Data Analysis, Software Development, and Problem Solving.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star on GitHub.
+
+Thank you for visiting the repository and supporting the project! 🚀
